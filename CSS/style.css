@@ -1,0 +1,581 @@
+/* フォント見出し */
+.dela-gothic-one-regular {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* フォント全体 */
+.m-plus-rounded-1c-regular {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/* 背景の色 */
+body {
+    background-color: bisque;
+
+}
+
+/* ヘッター */
+header {
+    color: #f7075f;
+}
+
+/* スタートメニュー設定 */
+
+/* 横並び */
+header .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 20px 0;
+}
+
+/* OFFICIAL HOMEPAGE */
+header .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* ジャンプボタン */
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 50px;
+}
+
+header nav ul li a {
+    transition: .2s;
+}
+
+header nav ul li a:hover {
+    transition: .2s;
+    opacity: 0.6;
+
+}
+
+/* ケータイ＆タブレット */
+@media only screen and (max-width: 960px) {
+    header .row {
+        display: block;
+    }
+
+    header nav ul {
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    header nav ul li {
+        margin-left: 0px;
+    }
+}
+
+
+
+
+
+
+
+/* メインビジュアル */
+.main_visual {
+    /* background-image: url('../images/mv2.jpg'); */
+    background-size: cover;
+    background-position: center top;
+
+}
+
+.main_visual .container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+    height: 640px;
+    position: relative;
+}
+
+.main_visual .title {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+}
+
+/* ホームページ */
+.main_visual h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: whitesmoke;
+    -webkit-text-stroke: 1px rgb(255, 66, 135);
+    margin-bottom: 20px;
+}
+
+/* ようこそスーザンのホームページへ！ */
+.main_visual p {
+    font-size: 30px;
+    font-weight: 900;
+    color: whitesmoke;
+    -webkit-text-stroke: 0.5px rgb(36, 26, 26);
+    margin-bottom: 10px;
+}
+
+
+
+/* ケータイ＆タブレット */
+@media only screen and (max-width: 960px) {
+
+    .main_visual .container {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1280px;
+        height: 480px;
+        position: relative;
+    }
+
+
+    .main_visual h1 {
+        font-size: 33px;
+        color: black;
+        -webkit-text-stroke: 0px;
+    }
+
+    .main_visual p {
+        font-size: 14px;
+        color: black;
+        -webkit-text-stroke: 0px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+/* セクション１ NEW TOPIC*/
+.section1 {
+    color: rgb(43, 80, 226);
+    padding: 80px 0;
+}
+
+/* 横幅の制限 */
+.section1 .container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.section1 .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1 .col {
+    width: 48%;
+}
+
+/* サブタイトル */
+.section1 .sub_title {
+    font-size: 30px;
+    color: #06db15;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+/*見出し  */
+.section1 h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.section1 .text {
+    font-size: 18px;
+    line-height: 1.8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.btn {
+    font-size: 18px;
+    border: solid 3px #f7075f;
+    border-radius: 100px;
+    display: inline-block;
+    width: 270px;
+    line-height: 60px;
+    text-align: center;
+    transition: .2s;
+}
+
+.btn:hover {
+    color: purple;
+    border: solid 1px #f7075f;
+    transition: .2s;
+}
+
+/* ケータイ＆タブレット */
+@media only screen and (max-width: 960px) {
+    .section1 .row {
+        flex-wrap: wrap;
+        padding-top: 0px;
+    }
+
+    .section1 .col {
+        width: 100%;
+    }
+
+    .section1 h2 {
+        font-size: 24px;
+    }
+
+    .section1 .text {
+        font-size: 15px;
+        line-height: 1.6;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* セクション２ ABOUT*/
+
+.section2 {
+    color: rgb(3, 171, 93);
+    padding: 80px 0;
+}
+
+/* 横幅の制限 */
+.section2 .container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+/* サブタイトル */
+.section2 .sub_title {
+    font-size: 30px;
+    color: rgb(0, 98, 255);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.section2 h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.section2 .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.section2 .col {
+    width: 31%;
+    position: relative;
+}
+
+.section2 img {
+    border-radius: 20px;
+}
+
+.section2 h3 {
+    background-color: beige;
+    display: inline-block;
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 6px 20px;
+    border-radius: 10px;
+}
+
+
+
+/* YouTube */
+.youtube {
+    width: 100%;
+    aspect-ratio: 10 / 6;
+}
+
+.youtube iframe {
+    width: 100%;
+    height: 85%;
+    border-radius: 50px;
+}
+
+
+.section2 .center {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*section3 CONTACT*/
+
+.section3 {
+    color: blueviolet;
+    padding: 20px 0;
+}
+
+/* 横幅の制限 */
+.section3 .container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+/* サブタイトル */
+.section3 .sub_title {
+    font-size: 30px;
+    color: #f74cd8;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+/* 見出し */
+.section3 h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+/* 横並び設定 */
+.section3 .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section3 .col {
+    width: 48%;
+}
+
+.section3 .text {
+    line-height: 1.8;
+    margin-bottom: 50px;
+
+}
+
+.section3 img {
+    border-radius: 20px;
+}
+
+/* ケータイ＆タブレット */
+@media only screen and (max-width: 960px) {
+    .section3 .row {
+        flex-wrap: wrap;
+    }
+
+    .section3 .col {
+        width: 100%;
+    }
+}
+
+
+
+
+/* section4 お問い合わせフォーム */
+
+.section4 h2 {
+    font-size: 23px;
+    color: #0921fb;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.toi {
+    padding: 4% 10%;
+}
+
+
+table {
+    width: 100%;
+    margin: 20px auto 20px auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px 15px;
+    border: 1px solid #999999;
+    font-weight: normal;
+    text-align: left;
+}
+
+th {
+    background: hsl(273, 83%, 88%);
+    position: relative;
+    width: 30%;
+}
+
+td {
+    background: #fff;
+}
+
+input {
+    padding: 5px;
+}
+
+textarea {
+    padding: 5px;
+    width: 90%;
+}
+
+th span {
+    font-size: 12px;
+    background: #f40;
+    color: #fff;
+    padding: 0 3px;
+    border-radius: 3px;
+    position: absolute;
+    right: 15px;
+}
+
+.submit-button {
+    text-align: center;
+}
+
+button {
+    background: rgb(37, 71, 220);
+    border: 0;
+    border-radius: 5px;
+    padding: 15px 50px;
+    color: #fff;
+    font-size: 18px;
+    transition: .3s;
+}
+
+button:hover {
+    cursor: pointer;
+    background: rgb(91, 195, 244);
+}
+
+.err {
+    background: #c00;
+    color: #fff;
+    padding: 5px 15px;
+    display: none;
+}
+
+#end {
+    padding: 5%;
+    text-align: center;
+    display: none;
+}
+
+#end h1 {
+    color: rgb(249, 20, 207);
+}
+
+#end div {
+    border: 2px solid #f74cd8;
+    background: #f4ddfa;
+    padding: 5% 0;
+}
+
+
+
+
+
+
+
+/*section4 あっちむいてホイ */
+.attimuitehoi {
+    width: 100%;
+    height: 1000px;
+}
+
+h4 {
+    text-align: center;
+}
+
+/* あっちむいてホイスマホ */
+
+
+
+
+
+
+
+
+/* フッター */
+footer {
+    color: orangered;
+    text-align: center;
+    font-size: 12px;
+
+}
+
+/* 横幅の制限 */
+footer .container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1280px;
+    border-top: solid 1px black;
+    padding: 50px 0 20px;
+}
+
+
+footer .logo {
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+footer ul li {
+    font-size: 15px;
+    margin: 0 20px;
+}
+
+/* クリック動作加工 */
+footer ul li a {
+    transition: 2s;
+}
+
+footer ul li a:hover {
+    transition: 2s;
+    opacity: 0.3;
+}
